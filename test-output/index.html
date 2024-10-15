@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-zipBoardTestAutomationFramework" class="navigator-link">
+              <span class="suite-name border-failed">zipBoardTestAutomationFramework</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-zipBoardTestAutomationFramework" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-zipBoardTestAutomationFramework" class="hide-methods failed suite-zipBoardTestAutomationFramework"> (hide)</a> <!-- hide-methods failed suite-zipBoardTestAutomationFramework -->
+                      <a href="#" panel-name="suite-zipBoardTestAutomationFramework" class="show-methods failed suite-zipBoardTestAutomationFramework"> (show)</a> <!-- show-methods failed suite-zipBoardTestAutomationFramework -->
+                    </span>
+                    <div class="method-list-content failed suite-zipBoardTestAutomationFramework">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-zipBoardTestAutomationFramework" title="com.w2a.testcases.ProjectDeletionTest" class="method navigator-link" hash-for-method="projectDeletionTest(P00005)">projectDeletionTest(P00005)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-zipBoardTestAutomationFramework -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-zipBoardTestAutomationFramework" class="hide-methods passed suite-zipBoardTestAutomationFramework"> (hide)</a> <!-- hide-methods passed suite-zipBoardTestAutomationFramework -->
+                      <a href="#" panel-name="suite-zipBoardTestAutomationFramework" class="show-methods passed suite-zipBoardTestAutomationFramework"> (show)</a> <!-- show-methods passed suite-zipBoardTestAutomationFramework -->
+                    </span>
+                    <div class="method-list-content passed suite-zipBoardTestAutomationFramework">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-zipBoardTestAutomationFramework" title="com.w2a.testcases.ProjectCreationTest" class="method navigator-link" hash-for-method="projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard)">projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-zipBoardTestAutomationFramework" title="com.w2a.testcases.TaskCreationTest" class="method navigator-link" hash-for-method="taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)">taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-zipBoardTestAutomationFramework" title="com.w2a.testcases.UserLoginTest" class="method navigator-link" hash-for-method="userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567)">userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-zipBoardTestAutomationFramework -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-zipBoardTestAutomationFramework" class="panel zipBoardTestAutomationFramework">
+          <div class="suite-zipBoardTestAutomationFramework-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.w2a.testcases.ProjectDeletionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectDeletionTest(P00005)">
+                  </a> <!-- projectDeletionTest(P00005) -->
+                  <span class="method-name">projectDeletionTest</span>
+                  <span class="parameters">(P00005)</span>
+                  <div class="stack-trace">java.lang.Error: Specified Project Id didn&apos;t got deleted from Table
+	at com.w2a.testcases.ProjectDeletionTest.projectDeletionTest(ProjectDeletionTest.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-zipBoardTestAutomationFramework-class-failed -->
+          <div class="suite-zipBoardTestAutomationFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.TaskCreationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)">
+                  </a> <!-- taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High) -->
+                  <span class="method-name">taskCreationTest</span>
+                  <span class="parameters">(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-zipBoardTestAutomationFramework-class-passed -->
+          <div class="suite-zipBoardTestAutomationFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.ProjectCreationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard)">
+                  </a> <!-- projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard) -->
+                  <span class="method-name">projectCreationTest</span>
+                  <span class="parameters">(P00005, Test05, Testing Project Creations in zipBoard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-zipBoardTestAutomationFramework-class-passed -->
+          <div class="suite-zipBoardTestAutomationFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.w2a.testcases.UserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567)">
+                  </a> <!-- userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567) -->
+                  <span class="method-name">userLoginTest</span>
+                  <span class="parameters">(sajusilpa@gmail.com, zipB0@rd@1234567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-zipBoardTestAutomationFramework-class-passed -->
+        </div> <!-- panel zipBoardTestAutomationFramework -->
+        <div panel-name="test-xml-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/silpasaju/Documents/Interview Assessment-1 zipBoard/Selenium Automation Project_zipBorad/src/test/resources/runner/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;zipBoardTestAutomationFramework&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;com.w2a.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;zipBoardAutomationTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.w2a.testcases.UserLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.testcases.ProjectCreationTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.testcases.TaskCreationTest&quot;/&gt;
+      &lt;class name=&quot;com.w2a.testcases.ProjectDeletionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- zipBoardAutomationTest --&gt;
+&lt;/suite&gt; &lt;!-- zipBoardTestAutomationFramework --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for zipBoardTestAutomationFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">zipBoardAutomationTest (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for zipBoardTestAutomationFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for zipBoardTestAutomationFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_zipBoardTestAutomationFramework');
+function tableData_zipBoardTestAutomationFramework() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'taskCreationTest')
+data.setCell(0, 2, 'com.w2a.testcases.TaskCreationTest')
+data.setCell(0, 3, 38837);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'userLoginTest')
+data.setCell(1, 2, 'com.w2a.testcases.UserLoginTest')
+data.setCell(1, 3, 32748);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'projectDeletionTest')
+data.setCell(2, 2, 'com.w2a.testcases.ProjectDeletionTest')
+data.setCell(2, 3, 32498);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'projectCreationTest')
+data.setCell(3, 2, 'com.w2a.testcases.ProjectCreationTest')
+data.setCell(3, 3, 23034);
+window.suiteTableData['zipBoardTestAutomationFramework']= { tableData: data, tableDiv: 'times-div-zipBoardTestAutomationFramework'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-zipBoardTestAutomationFramework">
+              </div> <!-- times-div-zipBoardTestAutomationFramework -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for zipBoardTestAutomationFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter username  </span>
+                <span class="reporter-method-output">Enter password  </span>
+                <span class="reporter-method-output">Click login button </span>
+                <span class="reporter-method-output">Checking navigated to Home Page </span>
+                <span class="reporter-method-output">Navigated to Home Page </span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_48_51_IST_2024.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_48_51_IST_2024.jpg><img src=Tue_Oct_15_04_48_51_IST_2024.jpg></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click create Project button </span>
+                <span class="reporter-method-output">Checking pop-up appeared  </span>
+                <span class="reporter-method-output">Pop-up appeared to enter details of new Project</span>
+                <span class="reporter-method-output">Enter new Project Id</span>
+                <span class="reporter-method-output">Enter new Project Title</span>
+                <span class="reporter-method-output">Enter new Project Description</span>
+                <span class="reporter-method-output">Click Project save button </span>
+                <span class="reporter-method-output">Check project is created </span>
+                <span class="reporter-method-output">New Project is created successfully</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_49_15_IST_2024.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_49_15_IST_2024.jpg><img src=Tue_Oct_15_04_49_15_IST_2024.jpg></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Task nav-bar button </span>
+                <span class="reporter-method-output">Click on add Task button </span>
+                <span class="reporter-method-output">Checking pop-up appeared  </span>
+                <span class="reporter-method-output">Pop-up appeared to enter details of new task</span>
+                <span class="reporter-method-output">Enter new Task Title</span>
+                <span class="reporter-method-output">Click on add Title button </span>
+                <span class="reporter-method-output">Enter new Task Description</span>
+                <span class="reporter-method-output">Click on Task Status drop down button </span>
+                <span class="reporter-method-output">Select Task Status </span>
+                <span class="reporter-method-output">Click on Task Type drop down button </span>
+                <span class="reporter-method-output">Select Task Type </span>
+                <span class="reporter-method-output">Click on Task Priority drop down button </span>
+                <span class="reporter-method-output">Select Task Priority </span>
+                <span class="reporter-method-output">Click on Task Close button </span>
+                <span class="reporter-method-output">Check task is created </span>
+                <span class="reporter-method-output">New Task is created successfully</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_49_54_IST_2024.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_49_54_IST_2024.jpg><img src=Tue_Oct_15_04_49_54_IST_2024.jpg></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">projectDeletionTest(P00005)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click on Project Navigation bar </span>
+                <span class="reporter-method-output">Waiting for project page to load </span>
+                <span class="reporter-method-output">Click on nav-bar to display the view of projects</span>
+                <span class="reporter-method-output">Enter Project Id in search bar</span>
+                <span class="reporter-method-output">Specified Project Id is  displayed in Table</span>
+                <span class="reporter-method-output">Click on Project delete button </span>
+                <span class="reporter-method-output">Click Project delete button </span>
+                <span class="reporter-method-output">Checking project is deleted from table </span>
+                <span class="reporter-method-output">Enter Project Id in search bar</span>
+                <span class="reporter-method-output">Specified Project Id didn't got deleted from Table</span>
+                <span class="reporter-method-output">Click to see screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_50_33_IST_2024.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Tue_Oct_15_04_50_33_IST_2024.jpg><img src=Tue_Oct_15_04_50_33_IST_2024.jpg></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.testcases.TaskCreationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.testcases.ProjectCreationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.w2a.testcases.ProjectDeletionTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-zipBoardTestAutomationFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">userLoginTest(sajusilpa@gmail.com, zipB0@rd@1234567)</span>
+                <span class="method-start">21208 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.ProjectCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">projectCreationTest(P00005, Test05, Testing Project Creations in zipBoard)</span>
+                <span class="method-start">54680 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.TaskCreationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">taskCreationTest(Task01-Test05, Checking task creation of Test-5, In Progress, Bug, High)</span>
+                <span class="method-start">78032 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.ProjectDeletionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">projectDeletionTest(P00005)</span>
+                <span class="method-start">123928 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.w2a.testcases.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">156825 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

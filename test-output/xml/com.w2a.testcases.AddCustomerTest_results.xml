@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddCustomerTest"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.021">
+  <properties />
+            <testcase name="addCustomer" time="0.021" classname="com.w2a.testcases.AddCustomerTest">
+                <failure type="org.testng.internal.reflect.MethodMatcherException"
+                  message="
+[public void com.w2a.testcases.AddCustomerTest.addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addCustomer([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Raman,(java.lang.String) Arora,(java.lang.String) A234wd]"
+              >
+<![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.w2a.testcases.AddCustomerTest.addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: addCustomer([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=2, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=3, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) Raman,(java.lang.String) Arora,(java.lang.String) A234wd]
+  org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+  org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+  org.testng.TestRunner.privateRun(TestRunner.java:794)
+  org.testng.TestRunner.run(TestRunner.java:596)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+  org.testng.SuiteRunner.run(SuiteRunner.java:276)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+  org.testng.TestNG.runSuites(TestNG.java:1063)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

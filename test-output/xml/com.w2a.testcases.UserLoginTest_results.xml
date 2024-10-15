@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zipBoardAutomationTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.748">
+  <properties />
+  
+  
+            <testcase name="userLoginTest" time="32.748" classname="com.w2a.testcases.UserLoginTest" />
+      
+</testsuite>
